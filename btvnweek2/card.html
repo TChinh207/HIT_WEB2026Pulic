@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card_TaLiemChinh_6</title>
+</head>
+<body>
+    <header>   
+        <h1>Thông Tin Cá Nhân</h1>
+        <nav>
+            <a href="#gioithiu">Giới Thiệu</a> | 
+            <a href="#sothich">Sở Thích</a> | 
+            <a href="#kinang">Kĩ Năng</a> | 
+            <a href="#tkb">Thời Khóa Biểu</a> | 
+            <a href="#lienhe">Liên Hệ</a>
+            <hr>
+        </nav>
+    </header>
+    <section >
+        <img src="https://tse4.mm.bing.net/th/id/OIP.IwOKJOzoPElrDyv7u2h1ogHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt = "Ảnh cá nhân" width="200" height="200">
+        <img src="image.png" alt="image" witdh="200" height="200"/>
+        <h2>Thông Tin Cá Nhân</h2>
+        <p><strong>Họ và tên: </strong>Nguyen Van Ben</p>
+        <p><strong>Tuổi: </strong>10</p>
+        <p><strong>Trường: </strong>Trường Thợ Săn</p>
+        <p><strong>Ngành học: </strong>Sử chữa đồng hồ</p>
+        <p><strong>Lớp: </strong>SCĐH01</p>
+        <p><strong>Email: </strong>ben10@gmail.com</p>
+        <p><strong>Số Điện Thoại: </strong>0910009999</p>
+    </section>
+    <hr>
+    <section id="gioithiu" >
+            <h2>Giới Thiệu</h2>
+            <p>Em xin chào mọi người , em học lớp CNTT04, Em đang tính thử nhiều lĩnh vực xem nào phù hợp </p>
+            <p>Mục tiêu trong tương lai của em là không 7 nghiệp, làm đúng chuyên ngành sở thích</p>
+        <hr>
+    </section>
+    <section id="sothich" >
+            <h2>Sở Thích</h2>
+            <ul>
+            <li>Trừ gian diệt ác </li>
+            <li>Biến hình tiêu diệt quái vật</li>
+            <li>Trượt ván</li>
+            <li>Tiêu diệt người ngoài hành tinh gian ác</li>
+            <li>Biến thành người ngoài hành tinh</li>
+            </ul>
+        <hr>
+    </section>
+    <section id="kinang" >
+            <h2>Kĩ Năng</h2>
+            <ol>
+            <li>Ăn nhanh </li>
+            <li>Sử dụng đồng hồ thông minh</li>
+            <li>May mắn</li>
+            <li>Nói ko ngừng</li>
+            <li>Biến hình</li>
+            </ol>
+        <hr>
+    </section>
+    <section id="tkb" >
+            <table border = 1>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Môn Học</th>
+                    <th>Phòng học</th>
+                </tr>
+                <tr>
+                    <td>Thứ 2</td>
+                    <td>Kinh tế chính trị</td>
+                    <td>401</td>
+                </tr>
+                <tr>
+                    <td>Thứ 3</td>
+                    <td>Chủ nghĩa xã hội</td>
+                    <td>402</td>
+                </tr>
+                <tr>
+                    <td>Thứ 4</td>
+                    <td>Tư tưởng Hồ Chí Minh</td>
+                    <td>403</td>
+                </tr>
+                <tr>
+                    <td>Thứ 5</td>
+                    <td>Triết học </td>
+                    <td>404</td>
+                </tr>
+                <tr>
+                    <td>Thứ 6</td>
+                    <td>Lịch sử đảng</td>
+                    <td>405</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Tổng cộng 5 buổi học</th>
+                </tr>
+            </table>
+            <hr>
+    </section>
+    <section id = "lienhe">
+        <h2>Form Liên Hệ</h2>
+        <form>
+            <label for = "fname"> Họ Và Tên:</label><br>
+            <input type="text" id="fname" name="name"><br>
+            <label for = "email"> Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for = "pass"> Mật Khẩu:</label><br>
+            <input type="password" id="pass" name="password">
+            <br>
+            <p>Giới tính</p>
+            <input type = "radio" id="nu" name="gtinh" value="Nữ">
+            <label for="nu">Nữ</label>
+            <input type = "radio" id="nam" name="gtinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type = "radio" id="gtk" name="gtinh" value="Giới tính khác">
+            <label for="gtk">Giới tính khác</label>
+            <p>Sở thích</p>
+            <input type="checkbox" id="an" name="an" value="Ăn" />
+            <label for="an"> Ăn</label>
+            <input type="checkbox" id="ngu" name="ngu" value="Ngủ" />
+            <label for="ngu"> Ngủ</label>
+            <input type="checkbox" id="choi" name="choi" value="Chơi" />
+            <label for="choi"> Chơi</label>
+        <br>
+        <label for="major">Ngành học:</label>
+        <select id="major" name="major">
+            <option value="cntt">Công Nghệ Thông Tin</option>
+            <option value="khmt">Khoa Học Máy Tính</option>
+            <option value="cndpt">Công Nghệ Đa Phương Tiện</option>
+            <option value="ktpm">Kĩ Thuật Phần Mềm</option>
+            <option value="mttvtt">Mạng máy Tính Và Truyền Thông</option>
+            <option value="httt">Hệ Thống Thông Tin</option>
+        </select>
+        <p>Giới Thiệu Bản Thân</p>
+        <textarea name="gthieu" rows="5" cols="30"></textarea><br>
+        <br>
+        <button type="button">Gửi!</button>
+        </form>
+        <hr>
+    </section>
+    <h2>Liên Hệ</h2>
+    <a href="https://web.facebook.com/me/" target="_blank">Facebook</a><br>
+    <a href="https://github.com/TChinh207" target="_blank">GitHub</a><br>
+    <a href="mailto:liemchinh356@gmail.com" >Email</a><br>
+    <hr>
+    <footer>
+        <p> @2026 Website Ta Liem Chinh</p>
+    </footer>
+</body>
+</html>
